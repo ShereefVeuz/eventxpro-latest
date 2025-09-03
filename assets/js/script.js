@@ -1,4 +1,21 @@
+//// loader
+document.addEventListener('DOMContentLoaded', function() {
+      const loader = document.querySelector('.loader');
 
+      window.addEventListener('load', function() {
+          // Keep loader for 1.5s
+          setTimeout(() => {
+              loader.classList.add('fade-out'); // start fading
+              
+              // Remove completely after fade finishes
+              loader.addEventListener('transitionend', () => {
+                  loader.remove(); // ensures it's gone from DOM
+              }, { once: true });
+
+          }, 1500);
+      });
+  });
+//// END loader
 
 //// mobile header
 const menuButton = document.querySelector('.menu-button');
@@ -92,6 +109,17 @@ dropdownToggles.forEach(toggle => {
     // Toggle the clicked one
     parent.classList.toggle('open');
   });
+});
+
+
+// navbar
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".main-header");
+  if (window.scrollY > 200) {
+      navbar.classList.add("fixed");
+  } else {
+      navbar.classList.remove("fixed");
+  }
 });
 
 
@@ -415,6 +443,26 @@ if (document.getElementById("portfolio")) {
     ScrollTrigger.addEventListener("refreshInit", refresh);
   });
 }
+
+
+
+
+
+//// loader
+// document.addEventListener('DOMContentLoaded', function () {
+//   const loader = document.querySelector('.loader');
+
+//   // Hide loader after content loads
+//   window.addEventListener('load', function () {
+//     setTimeout(() => {
+//       loader.style.display = 'none';
+
+//     }, 1500); // Adjust time as needed
+//   });
+// });
+//// END pre loader
+
+
 
 
 
