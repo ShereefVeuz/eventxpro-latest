@@ -52,6 +52,7 @@ a {
   align-items: center;
   z-index: 9999;
   transition: opacity 0.8s ease, visibility 0.8s ease;
+  overflow: hidden;
 }
 
 /* Fade out state */
@@ -59,8 +60,6 @@ a {
   opacity: 0;
   visibility: hidden;
 }
-
-
 
 .frame {
   position: absolute;
@@ -190,7 +189,7 @@ a {
     top: 0;
     background-color: rgba(0, 0, 0, 0.9); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
 .main-header-in {
