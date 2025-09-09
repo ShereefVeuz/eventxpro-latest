@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".left-hm-about-in",  
       start: "top 80%",    
       end: "bottom 30%",    
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -26,7 +26,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".right-hm-about-video",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -42,7 +42,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".left-events-inner-cont",  
       start: "top 80%",    
       end: "bottom 30%",    
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -60,7 +60,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".right-about-first-img",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -92,7 +92,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".left-faq",  
       start: "top 50%",    
       end: "bottom 55%",    
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -106,7 +106,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".right-faq",    
       start: "top 50%",             
       end: "bottom 55%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -122,7 +122,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".qt",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -140,7 +140,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".left-solutions",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -156,7 +156,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".left-achive-event",  
       start: "top 80%",    
       end: "bottom 30%",    
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -170,7 +170,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".right-achive-event",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -186,7 +186,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".custom-tab-solution-in",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -204,7 +204,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".blog-item-full-out",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -222,7 +222,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".blog-dtails-img",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -238,7 +238,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".blog-contact .contact-form",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -254,7 +254,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".all-ft-blog-listing",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -272,7 +272,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".featur-detls-cont",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -291,7 +291,7 @@ gsap.registerPlugin(ScrollTrigger);
         trigger: item,
         start: "top 80%",
         end: "top 20%",
-        scrub: true,
+        scrub: false,
         markers: false
       },
     });
@@ -305,7 +305,7 @@ gsap.registerPlugin(ScrollTrigger);
         trigger: item,
         start: "top 80%",
         end: "top 20%",
-        scrub: true,
+        scrub: false,
         markers: false
       },
     });
@@ -321,7 +321,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".innovative-featur-in",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -337,7 +337,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".empower-featur-in",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -355,7 +355,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".right-project-event",  
       start: "top 80%",    
       end: "bottom 30%",    
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -369,7 +369,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".left-project-event",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -385,7 +385,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".project-item-out",    
       start: "top 80%",             
       end: "bottom 30%",             
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
@@ -403,7 +403,7 @@ gsap.registerPlugin(ScrollTrigger);
       trigger: ".contact-in",  
       start: "top 80%",    
       end: "bottom 30%",   
-      scrub: true,
+      scrub: false,
       markers: false,
       toggleActions: "play none none reverse"
     }
