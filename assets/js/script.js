@@ -401,7 +401,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Initialize with first next slide
-  updateFooter(1 % slideData.length);
+  // updateFooter(1 % slideData.length);
+  updateFooter(0);
 });
 
 

@@ -395,6 +395,7 @@ a {
 	height: 100vh;
 	background: linear-gradient(0deg,rgb(234, 166, 198) 0%, rgb(255, 255, 255) 70%);
 	display: flex;
+	flex-direction: column;
 	padding: 30px;
 	z-index: 3;
 	box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
@@ -1291,7 +1292,7 @@ a {
 .hm-future-img video{
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 .right-hm-future-head-out{
 	display: flex;
