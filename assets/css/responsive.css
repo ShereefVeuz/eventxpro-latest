@@ -37,6 +37,7 @@
 	.right-nav-top {
 		width: 85%;
 		justify-content: end;
+		border-left: 0;
 	}
 	.main-header-in {
 		padding: 0 20px;
@@ -437,6 +438,12 @@
   		padding: 30px;
 	}
 
+	/* blogs */
+	.left-blog-cont h2 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
 	/* solutions */
 	.solutions-dtails-img{
 		display: none;
@@ -501,6 +508,10 @@
 	/* common */
 	.third-btn {
   		font-size: 14px;
+	}
+	.anim-btn-1 {
+		width: 175px;
+		height: 40px;
 	}
 
 	.menu a {
@@ -585,7 +596,7 @@
 	}
 
 	 .testim-head h2 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.event-exper-list-in h3 {
   		font-size: 25px;
@@ -608,13 +619,18 @@
 		font-size: 14px;
 		margin-bottom: 5px;
 	}
+	.qt {
+    	padding: 22px;
+	}
 	.qt button {
 		font-size: 14px;
 		padding: 10px 20px;
 	}
 	.qt h2 {
-		font-size: 25px;
+		font-size: 20px;
+		margin-bottom: 10px;
 	}
+	
 	.banner_slider .carousel-caption h5 {
 		font-size: 30px;
 		line-height: 35px;
@@ -624,8 +640,33 @@
 	}
 	.anim-btn-1 {
 		font-size: 14px;
-		/* width: 125px;
-		height: 40px; */
+	}
+	.event-exper-list-in p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.event-exper-list-in {
+		padding: 15px;
+		padding-left: 15px;
+	}
+	.event-experience h2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.footer {
+		padding: 90px 0 40px;
+	}
+	.bg-text-ft {
+		font-size: 5rem;
+		margin-bottom: 0px;
+	}
+	.third-btn {
+		width: 160px;
+		height: 42px;
+	}
+	.major-project-head h3 {
+		font-size: 25px;
+		line-height: 30px;
 	}
 
 	/* about us page */
@@ -642,9 +683,34 @@
 		line-height: 45px;
 	}
 
+	/* blogs */
+	.left-blog-cont h2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
 	.blog-details-head h2 {
 		font-size: 25px;
-		line-height: 35px;
+		line-height: 30px;
+	}
+	.blog-detls-view-head h2 {
+		font-size: 20px;
+	}
+	.blog-bg{
+		display: none;
+	}
+	.blog-content h5 {
+  		font-size: 18px;
+	}
+	.blog-details-bottom p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.blog-contact .contact-form .btn{
+		width: 165px;
+  		height: 40px;
+	}
+	.blog-content .read-more {
+  		font-size: 14px;
 	}
 
 	/* empower */
@@ -723,6 +789,9 @@
   		font-size: 14px;
 		line-height: 25px;
 	}
+	.agenda-cont-img .content img {
+		width: 100%;
+	}
 	
 	/* projects */
 	.right-project-event h6 {
@@ -738,6 +807,38 @@
 		line-height: 25px;
 	}
 
+	/* features */
+	.innovative-featur-head h3, .empower-featur-head h3 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.innovative-featur-head p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.innovative-featur-head {
+  		width: 100%;
+	}
+	.featur-detls-cont .third-btn {
+		width: 150px;
+		height: 40px;
+	}
+	.innovative-featur .owl-nav .owl-prev {
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+	}
+	.innovative-featur .owl-nav .owl-next {
+		left: auto;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.empower-featur-head p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+
 	/* contact page */
 	.contact-in {
     	padding: 15px;
@@ -745,7 +846,6 @@
 	.contact-img {
   		height: 300px;
 	}
-	
 	
 
 }
@@ -776,8 +876,8 @@
 	}
 
 	.event-exper-list-in img{
-		width: 70%;
-		height: 70%;
+		width: 46%;
+		height: auto;
 		object-fit: contain;
 		margin-bottom: 10px;
 	}

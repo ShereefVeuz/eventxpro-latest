@@ -44,8 +44,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: #000; /* background color for loader */
   display: flex;
   justify-content: center;
@@ -65,12 +65,13 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
+  /* margin-top: -200px;
+  margin-left: -200px; */
 }
 
 .center {
-  position: absolute;
+  /* position: absolute; */
   width: 220px;
   height: 220px;
   top: 90px;
@@ -1649,7 +1650,7 @@ a {
 }
 .event-exper-list-in p{
 	font-size: 16px;
-	font-weight: 4300;
+	font-weight: 400;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.7);
 	margin-bottom: 0px;
@@ -2024,11 +2025,6 @@ a {
   transform: scale(1);
 }
 
-
-
-
-
-
 .gallery-btn-out {
 	position: absolute;
 	top: 50%;
@@ -2042,7 +2038,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	z-index: 10;
+	z-index: 4;
 }
 .gallery-btn {
 	border: none;
@@ -2541,6 +2537,8 @@ a {
 .about-first-section{
 	padding-bottom: 80px;
 	background: #f5f7f9;
+	position: relative;
+	overflow: hidden;
 }
 
 .left-about-first-in{
@@ -2581,6 +2579,8 @@ a {
 .about-second-sec{
 	padding-bottom: 80px;
 	background: #f5f7f9;
+	position: relative;
+	overflow: hidden;
 }
 .left-about-second-sec h6{
 	font-size: 16px;
@@ -3365,6 +3365,10 @@ a {
 	padding-bottom: 80px;
 	background: #f5f7f9;
 }
+.achive-event{
+	position: relative;
+	overflow: hidden;
+}
 .left-achive-event{
 	height: 500px;
 	overflow: hidden;
@@ -3511,6 +3515,8 @@ a {
 .project-event{
 	padding-bottom: 80px;
 	background: linear-gradient(180deg, #f5f7f9 0%, #fff 100%);
+	position: relative;
+	overflow: hidden;
 }
 
 .right-project-event{
@@ -3545,6 +3551,10 @@ a {
 	object-fit: cover;
 }
 
+.major-project{
+	position: relative;
+	overflow: hidden;
+}
 .major-project-head h3{
 	font-size: 50px;
 	font-weight: 300;
