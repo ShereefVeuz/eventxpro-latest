@@ -463,8 +463,8 @@
 		display: -webkit-box;
 		padding-bottom: 15px;
 	}
-	.agenda-cont-img .content img {
-  		width: 250px;
+	.right-achive-event{
+		padding-left: initial;
 	}
 
 	/* project */
@@ -791,9 +791,6 @@
 	.agenda-cont p {
   		font-size: 14px;
 		line-height: 25px;
-	}
-	.agenda-cont-img .content img {
-		width: 100%;
 	}
 	
 	/* projects */
