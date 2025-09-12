@@ -143,7 +143,7 @@
 
 	.menu-outr{display: block;}
 	.menu-button.open .close-icon {
-		right: -360%;
+		right: -250%;
 	}
 
 	.menu a {
@@ -846,6 +846,11 @@
 	.contact-img {
   		height: 300px;
 	}
+
+	.left-hm-future-cont .wrap a {
+        margin: 0 auto;
+    }
+
 	
 
 }
@@ -872,7 +877,7 @@
 		display: none;
 	}
 	 .menu-button.open .close-icon {
-		right: -90%;
+		right: 30%;
 	}
 
 	.event-exper-list-in img{
@@ -894,6 +899,10 @@
 	}
 	.ft-address-dtls {
   		display: block;
+	}
+
+	.event-portfolio-cont h3 span{
+		display: none;
 	}
 
 }
