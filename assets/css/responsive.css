@@ -481,6 +481,12 @@
 		font-size: 30px;
 		line-height: 35px;
 	}
+	.right-project-event {
+		padding-right: initial;
+	}
+	.empower-featur-head br{
+        display: none;
+    }
 
 	/* contact page */
 	.right-contact-page{
@@ -564,6 +570,9 @@
 		top: 6px;
 	}
 	
+	.menu-overlay {
+        padding: 30px 15px;
+    }
 	.nav-contact-btn .btn {
   		font-size: 12px;
 	}
@@ -682,8 +691,8 @@
   		height: 350px;
 	}
 	.left-about-second-sec h3 {
-		font-size: 35px;
-		line-height: 45px;
+		font-size: 30px;
+		line-height: 35px;
 	}
 
 	/* blogs */
@@ -849,6 +858,37 @@
 
 	.left-hm-future-cont .wrap a {
         margin: 0 auto;
+    }
+
+	.about-second-sec {
+        padding-bottom: 0px;
+    }
+
+	/*pagination*/
+    .pagination {
+        margin-top: 20px;
+    }
+    .pagination ul li.btn {
+        padding: 0 4px;
+        margin: 0 5px;
+    }
+    .pagination ul li.numb {
+        height: 22px;
+        width: 22px;
+        margin: 0 6px;
+    }
+    .pagination ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+	.left-about-first-in p,
+	.right-about-second-sec p,
+	.testimonial-card p,
+	.right-faq .accordion-body,
+	.footer .left-bottom-logo-out p{
+        font-size: 14px;
+        line-height: 25px;
     }
 
 	

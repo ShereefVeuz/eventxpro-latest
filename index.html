@@ -141,7 +141,7 @@
     <!-- slider -->
     <section class="slider-banner">
       <div class="banner_slider">
-        <div id="carouselExampleIndicators" class="carousel slide carousel-outr" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-outr" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -336,37 +336,37 @@
     <div class="gallery-slide">
       <h1 class="bg-text-event" data-text="EventXPro">DUBAI 2025</h1>
       <div class="bg-img bg-img1">
-        <img src="assets/img/events/event-01.webp">
+        <img src="assets/img/events/dubai-01.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img2">
-       <img src="assets/img/events/event-02.webp">
+       <img src="assets/img/events/dubai-02.webp">
        <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img3">
-        <img src="assets/img/events/event-03.webp">
+        <img src="assets/img/events/dubai-03.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img4">
-        <img src="assets/img/events/event-04.webp">
+        <img src="assets/img/events/dubai-04.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img5">
-        <img src="assets/img/events/event-05.webp">
+        <img src="assets/img/events/dubai-05.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img6">
-        <img src="assets/img/events/event-06.webp">
+        <img src="assets/img/events/dubai-06.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
@@ -375,37 +375,37 @@
     <!-- Slide 2 -->
     <div class="gallery-slide">
       <div class="bg-img bg-img7">
-        <img src="assets/img/events/event-01.webp">
+        <img src="assets/img/events/nigeria-01.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img8">
-        <img src="assets/img/events/event-02.webp">
+        <img src="assets/img/events/nigeria-02.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img9">
-        <img src="assets/img/events/event-03.webp">
+        <img src="assets/img/events/nigeria-03.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img10">
-        <img src="assets/img/events/et-04.webp">
+        <img src="assets/img/events/nigeria-04.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img11"> 
-        <img src="assets/img/events/event-05.webp">
+        <img src="assets/img/events/nigeria-05.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
       </div>
       <div class="bg-img bg-img12">
-        <img src="assets/img/events/event-06.webp">
+        <img src="assets/img/events/nigeria-06.webp">
         <div class="overlay">
           <span class="plus">+</span>
         </div>
@@ -1178,14 +1178,10 @@
               <span class="input-icon-textarea"><i class="fa-solid fa-pen"></i></span>
               <textarea class="form-control" id="message" rows="5" placeholder="Enter message" required></textarea>
             </div>
-            <button type="submit" class="btn third-btn"> Send Message <span></span> <i class="fa-solid fa-arrow-right-long"></i></button>
+            <button type="submit" class="btn anim-btn-1"> Send Message <span></span> <i class="fa-solid fa-arrow-right-long"></i></button>
           </form>
         </div>
       </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
     </div>
   </div>
 </div>
@@ -1210,8 +1206,16 @@
   </script>
 
   <script>
-    
-  </script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var carouselEl = document.getElementById('carouselExampleIndicators');
+      if (carouselEl) {
+        var carousel = new bootstrap.Carousel(carouselEl, {
+          interval: 4000,
+          pause: false
+        });
+      }
+    });
+</script>
 
 
 </body>
