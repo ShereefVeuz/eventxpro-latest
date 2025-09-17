@@ -3771,7 +3771,7 @@ a {
 	width: 100%;
 }
  @media only screen and (max-width: 600px) {
-	.iti-mobile .iti__country {
+	.iti__country {
 	font-size: 14px;
 	}
  }
