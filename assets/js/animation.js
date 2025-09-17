@@ -411,8 +411,6 @@ gsap.registerPlugin(ScrollTrigger);
 
   
 
-  
-
 
 //scroller-smooth
 const lenis = new Lenis()
@@ -427,6 +425,7 @@ gsap.ticker.add((time)=>{
 })
 gsap.ticker.lagSmoothing(0)
 // close
+
 
 
 

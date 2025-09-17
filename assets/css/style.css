@@ -448,14 +448,14 @@ a {
 	display: flex;
 	flex-direction: column;
   }
-  
+
 .main-header .dropdown-toggle {
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
   }
-  
+
 .main-header .dropdown-menu {
 	display: none;
 	flex-direction: column;
@@ -473,20 +473,44 @@ a {
 	background-color: transparent;
 	border: 0;
 }
+.main-header .menu-dropdown.open .dropdown-menu a img{
+    width: 25px;
+    margin-right: 5px;
+}
 .nav-desc-menu .menu-dropdown.open .dropdown-menu{
 	position: absolute;
-	padding: 10px;
-	background-color: #d018b8;
+	padding: 0px;
+	background-color: var(--white-color);
 	width: 100%;
 	top: 20px;
+    min-width: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .nav-desc-menu .menu-dropdown.open .dropdown-menu a{
-	font-size: 15px;
-	line-height: 20px;
-  	font-weight: 300;
+	font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 12px 15px;
+    color: var(--black-color);
+    background: #ececec;
+    margin: 0px 0;
+    border-radius: 0px;
+    border-bottom: 1px solid #d9d9d9de;
 }
-.nav-desc-menu .menu-dropdown.open .dropdown-menu a:hover{
-	color: #000 !important;
+.nav-desc-menu .menu-dropdown.open .dropdown-menu a img{
+    width: 24px;
+    margin-right: 10px;
+}
+.nav-desc-menu .menu-dropdown.open .dropdown-menu a:hover img {
+  filter: brightness(0) invert(1); /* makes it white */
+}
+.nav-desc-menu .menu-dropdown.open .dropdown-menu a:last-child{
+    border: 0;
+}
+.nav-desc-menu .menu-dropdown.open .dropdown-menu a:hover,
+.nav-desc-menu .menu-dropdown.open .dropdown-menu a:active{
+	color: var(--white-color) !important;
+    background: var(--gradient);
 }
 .main-header .dropdown-menu a {
 	font-size: 16px;
@@ -545,6 +569,9 @@ a {
 	.nav-desc-menu{
 		display: none;
 	}
+	.menu a {
+        color: #464646;
+    }
 }
 
 /* navbar */
@@ -897,7 +924,7 @@ a {
 	border: 1px solid var(--main-color);
 	border-radius: 0;
 	color: var(--main-color);
-	z-index: 3;
+	z-index: 1;
 	justify-content: center;
 	align-items: center;
 	gap: 15px;
@@ -3735,10 +3762,20 @@ a {
 	color: #ffffff69;
 	opacity: 1;
 }
-
 .left-contact-page .contact-form .btn{
 	margin-top: 20px;
 }
+
+/* contact country select */
+.form-group .iti{
+	width: 100%;
+}
+ @media only screen and (max-width: 600px) {
+	.iti-mobile .iti__country {
+	font-size: 14px;
+	}
+ }
+
 
 /* nav request a demo */
 .nav-request-demo-outr{

@@ -479,6 +479,7 @@ $(document).ready(function(){
 
 
 
+// Lenis disabled
 
 
 
